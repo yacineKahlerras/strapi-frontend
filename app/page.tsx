@@ -25,7 +25,7 @@ export default async function Home() {
   }
 
   return (
-    <main className="min-h-screen p-8">
+    <main className="min-h-screen p-8 max-w-[65rem] mx-auto">
       <span>why choose us</span>
       <h1>why we are different from others</h1>
       <p>

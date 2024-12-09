@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function MainSection({ data }: { data: ArticleType[] }) {
-  const [activeArticle] = useState(0);
+  const [activeArticle, setActiveArticle] = useState(0);
   const currentArticle = data[activeArticle];
 
   return (
@@ -28,9 +28,13 @@ export default function MainSection({ data }: { data: ArticleType[] }) {
 
       {/* right section */}
       <ul className="flex flex-col gap-1 items-center">
-        {data.map((artc) => {
+        {data.map((artc, index) => {
           return (
-            <li key={artc.title}>
+            <li
+              className="cursor-pointer bg-red-600 flex justify-between w-[18rem] px-5 py-2 rounded-full"
+              key={artc.title}
+              onClick={() => setActiveArticle(index)}
+            >
               <span>{"<"}</span>
               <span>{artc.title}</span>
             </li>
