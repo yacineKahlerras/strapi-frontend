@@ -25,9 +25,11 @@ export default async function Home() {
   }
 
   return (
-    <main className="min-h-screen p-8 max-w-[65rem] mx-auto">
-      <span>why choose us</span>
-      <h1>why we are different from others</h1>
+    <main className="min-h-screen p-8 max-w-[55rem] mx-auto text-center">
+      <span className="uppercase font-light mb-3">why choose us</span>
+      <h1 className="capitalize font-bold mb-5">
+        why we are different from others
+      </h1>
       <p>
         Our services are designed to meet the unique needs of each client,
         providing tailored solutions that drive success. We focus on delivering
