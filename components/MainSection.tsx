@@ -6,7 +6,7 @@ export default function MainSection() {
   return (
     <div className="w-full px-8 pl-20 pt-14 bg-black h-[652px] overflow-hidden flex flex-col items-start text-white relative rounded-b-[2.5rem]">
       {/* header */}
-      <h1 className="text-[52px] font-bold font-helvetica pt-12">
+      <h1 className="text-[52px] font-bold font-helvetica pt-12 z-20">
         Fly stress-free, <br />
         We handle your bags
       </h1>
