@@ -18,8 +18,8 @@ export default function MainSection() {
           <small className="text-base opacity-80 font-light">Rating</small>
         </span>
         <ul className="flex">
-          {stars.map((s) => (
-            <li>
+          {stars.map((s, indx) => (
+            <li key={indx}>
               <Image
                 width={15.27}
                 height={15.27}
