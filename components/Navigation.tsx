@@ -19,7 +19,7 @@ export default function Navigation() {
   return (
     <nav className="flex items-center justify-between px-14 py-4 font-semibold">
       <Image src="/logo.svg" width={145} height={23} alt="logo" />
-      <ul className="flex items-center justify-center gap-9 pl-[15rem]">
+      <ul className="flex items-center justify-center gap-9 xl:pl-[15rem]">
         {navLinks.map(({ text, url }) => (
           <li key={text}>
             <a
