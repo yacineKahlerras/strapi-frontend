@@ -44,7 +44,7 @@ export default function Navigation() {
             <span>EN</span>
             <Image width={16} height={16} alt="flag" src="/down-arrow.svg" />
           </button>
-          <button className="font-bold border-2 border-black rounded-lg px-4 py-2 hover:opacity-80">
+          <button className="font-bold border-2 border-black rounded-lg px-5 py-[0.6rem] hover:opacity-80">
             For Business
           </button>
         </div>

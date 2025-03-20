@@ -6,10 +6,10 @@ export default function MainSection() {
   return (
     <div className="flex justify-center items-start overflow-hidden relative rounded-b-[2.5rem] h-[600px] lg:h-[652px]">
       <div className="w-full h-full flex-shrink bg-black"></div>
-      <div className="w-[min(100%,90rem)] h-full flex-shrink-0 px-4 lg:px-8 lg:pl-20 lg:pt-14 bg-black flex flex-col items-center lg:items-start justify-center lg:justify-start text-white relative">
+      <div className="w-[min(100%,90rem)] h-full flex-shrink-0 px-4 lg:px-8 lg:pl-20 lg:pt-20 bg-black flex flex-col items-center lg:items-start justify-center lg:justify-start text-white relative">
         <div className="flex flex-col items-start justify-start">
           {/* header */}
-          <h1 className="text-3xl md:text-4xl lg:text-[52px] leading-normal font-bold font-helvetica pt-12 z-20 whitespace-normal lg:whitespace-nowrap">
+          <h1 className="text-3xl md:text-4xl lg:text-[52px] !leading-[2.5rem] lg:!leading-[4.5rem] font-bold font-helvetica pt-12 z-20 whitespace-normal lg:whitespace-nowrap">
             Fly stress-free, <br />
             We handle your bags
           </h1>
