@@ -17,10 +17,16 @@ const navLinks = [
 
 export default function Navigation() {
   return (
-    <nav className="flex items-center justify-center px-14 py-4 font-semibold">
+    <nav className="flex items-center justify-center px-6 lg:px-14 py-4 font-semibold">
       <div className="w-[min(100%,90rem)] flex items-center justify-between">
-        <Image src="/logo.svg" width={145} height={23} alt="logo" />
-        <ul className="flex items-center justify-center gap-9 xl:pl-[15rem]">
+        <Image
+          src="/logo.svg"
+          width={145}
+          height={23}
+          alt="logo"
+          className="w-28 lg:w-[145px] lg:h-23"
+        />
+        <ul className="items-center justify-center gap-9 hidden lg:flex">
           {navLinks.map(({ text, url }) => (
             <li key={text}>
               <a
@@ -32,8 +38,7 @@ export default function Navigation() {
             </li>
           ))}
         </ul>
-        <div></div>
-        <div className="flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6">
           <button className="flex items-center gap-2">
             <Image width={20} height={15} alt="flag" src="/british-flag.svg" />
             <span>EN</span>
@@ -43,6 +48,13 @@ export default function Navigation() {
             For Business
           </button>
         </div>
+        <Image
+          src="/hamburger.svg"
+          width={45}
+          height={45}
+          alt="logo"
+          className="flex lg:hidden w-9 lg:w-11"
+        />
       </div>
     </nav>
   );
