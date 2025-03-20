@@ -44,13 +44,22 @@ export default function MainSection() {
         </span>
 
         <div className="bg-[#FDCD00] absolute right-0 top-0 w-[39%] h-full flex items-end justify-start pl-32 pt-9">
-          <Image width={391} height={590} src="/woman.png" alt="woman" />
+          <Image
+            width={391}
+            height={590}
+            src="/woman.png"
+            alt="woman"
+            unoptimized
+            quality={100}
+          />
           <Image
             className="absolute left-0 bottom-0 xl:top-[2rem] -translate-x-1/2"
             width={279}
             height={436}
             src="/case.png"
             alt="case"
+            unoptimized
+            quality={100}
           />
         </div>
         <div className="opacity-[0.035] bg-white w-16 aspect-square absolute bottom-0 left-[40%]"></div>
