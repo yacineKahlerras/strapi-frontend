@@ -62,11 +62,11 @@ export default function MainSection() {
             quality={100}
           />
         </div>
-        <div className="opacity-[0.035] bg-white w-16 aspect-square absolute bottom-0 left-[40%]"></div>
-        <div className="opacity-[0.035] bg-white w-16 aspect-square absolute bottom-[3rem] left-[1.5rem]"></div>
-        <div className="opacity-[0.035] bg-white w-16 aspect-square absolute top-[5rem] left-[3.5rem]"></div>
-        <div className="opacity-[0.035] bg-white w-16 aspect-square absolute top-[0rem] left-[20%]"></div>
-        <div className="opacity-[0.035] bg-white w-32 h-16 absolute bottom-[0rem] left-[10%]"></div>
+        <div className="bg-[#100E0A] w-16 aspect-square absolute bottom-0 left-[40%]"></div>
+        <div className="bg-[#090807] w-16 aspect-square absolute bottom-[3rem] left-[1.5rem]"></div>
+        <div className="bg-[#090807] w-16 aspect-square absolute top-[5rem] left-[3.5rem]"></div>
+        <div className="bg-[#090807] w-16 aspect-square absolute top-[0rem] left-[20%]"></div>
+        <div className="bg-[#0A0907] w-32 h-16 absolute bottom-[0rem] left-[10%]"></div>
       </div>
       <div className="w-full h-full flex-shrink bg-[#FDCD00]"></div>
     </div>
